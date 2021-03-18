@@ -3,7 +3,8 @@
     background: transparent;
     outline: none;
     opacity: .5;
-    margin-top: 25px;
+    margin-top: 140px;
+    position: absolute;
 }
 
 .tulisan,
@@ -13,11 +14,12 @@
     margin-top: 35px;
     color: rgb(255, 255, 255);
     font-size: 40px;
+    position: absolute;
 }
 
 .penyanyi {
     font-size: 20px;
-    margin-top:20px;
+    margin-top: 100px;
 }
 
 body {
@@ -47,4 +49,25 @@ body {
     display: flex;
     align-items: center;
     border-radius: 10px;
+}
+
+.instragram {
+    width: 50px;
+    margin-top: 330px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.facebook {
+    width: 50px;
+    margin-top: -55px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
 }
